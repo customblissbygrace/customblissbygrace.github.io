@@ -19,6 +19,7 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  padding: 0;
 }
 
 .button {

@@ -1,4 +1,7 @@
-:root { font: 19px/1.7 "Poppins", sans-serif; }
+:root { font: 20px/1.7 "Poppins", sans-serif; }
+
+@media (max-width: 8.5in) { :root { font-size: 18px; } }
+@media (max-width: 5in) { :root { font-size: 16px; } }
 
 body,
 body * {

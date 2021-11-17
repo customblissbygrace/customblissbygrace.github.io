@@ -6,12 +6,12 @@ article {
 
 article * {
     grid-column: start / end;
-    padding: 0.5rem 0 0.5rem 0;
+    padding: 0 0 0.5rem 0;
     }
 
 @media (max-width: 8in) {
 	article { grid-template-columns: 1fr 5% [start] 20% 50% 20% [end] 5% 1fr; }
-}
+    }
 
 
 
@@ -21,8 +21,7 @@ article * {
 .size-3 {grid-column: 2 / 7; }
 .size-4 {grid-column: 1 / 8; }
 
-
-.size-1 img, .size-2 img, .size-3 img, .size-4 img { width: 100%; position: sticky;}
+.size-1 img, .size-2 img, .size-3 img, .size-4 img { width: 100%; position: sticky; border-radius: 20px;}
 .portfolio {width: 220px; border-radius: 20%;}
 
 
@@ -40,17 +39,13 @@ figcaption {
 
 /*400 is default font weight, you can have anywhere between 100 to 900 font weights) */
 
-h1           { font-size: 2em ; color: black; text-align: center;}
-h2           { font: 600 1.5rem/1.0 ; color: #7A002E; padding-top: 25px;}
-h3           { font: 300 1.0rem/1.2 ; color: #77B5FE; text-align: right; padding: 0;}
-time         { font: 400 1.0rem; color: gray; text-align: right; padding: 0;}
-figcaption p { font: 400 1.0rem/1.5; color: hsl(000, 000%, 83%); }
-ul{ margin-left:30px;}
-ul li {padding: 0}
-ol{ margin-left:30px;}
-ol li {padding: 0}
+h1           { font-size: 2rem; color: black; text-align: center;}
+h2           { font: 600 1.5rem ; padding-bottom: 20px; color: black; text-align: center;}
 
-
+@media (max-width: 5in) {
+    h1 { font-size: 1.5rem / 0.5; }
+    h2 { font-size: 1.2rem; }
+    }
 
 p a {
   color: #2F35AF;
@@ -63,6 +58,25 @@ a:hover {
 }
 
 
-@media (max-width: 8.5in) { :root { font-size: 18px; } }
-@media (max-width: 5in) { :root { font-size: 16px; } }
+ol{ margin-left:30px;}
 
+
+ul {
+  margin-left:30px;
+  list-style: none;
+  display: table;
+}
+
+article li {
+  display: table-row;
+  padding: 0;
+}
+
+b {
+  display: table-cell;
+  padding-right: 1em;
+}
+
+td {
+    padding-top: 25px;
+}
