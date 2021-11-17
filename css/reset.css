@@ -1,0 +1,13 @@
+:root { font: 19px/1.7 "Poppins", sans-serif; }
+
+body,
+body * {
+	margin:          unset;
+	box-sizing:      unset;
+	padding:         unset;
+	font-size:       unset;
+	color:           #303030;
+	text-decoration: unset;
+}
+
+
