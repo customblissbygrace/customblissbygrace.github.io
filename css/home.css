@@ -19,8 +19,12 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  padding: 0;
+  line-height: 1.35;
+  padding: 40px;
+  background-color:rgba(255,255,255,0.75);
+  border-radius: 25px;
 }
+
 
 .button {
   background-color: #B991B5;
