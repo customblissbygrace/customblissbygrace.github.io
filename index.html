@@ -1,48 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Custom Bliss by Grace</title>
-    <link rel ="icon" href ="images/logo.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,200;1,400&display=swap"
-          rel="stylesheet">
-    <link rel="stylesheet" href = "css/reset.css">
-    <link rel="stylesheet" href = "css/every.css">
-    <link rel="stylesheet" href = "css/article.css">
-    <link rel="stylesheet" href = "css/home.css">
-    <link rel="stylesheet" href = "css/-debug.css">
+  <meta charset="UTF-8">
+  <title>Custom Bliss by Grace</title>
+  <link rel="icon" href="images/logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Licorice&family=Lora:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
 </head>
+
 
 <body>
 
-    <nav role="navigation">
-      <div id="menuToggle">
-        <input type="checkbox" />
-        <span></span>
-        <span></span>
-        <span></span>
-          <ul id="menu">
-              <center><img src = "images/cbg.png" width = 50px></center>
-              <a href="./"><li>Home</li></a>
-              <a href="about"><li>About</li></a>
-              <a href="portfolio"><li>Portfolio</li></a>
-              <a href="https://www.etsy.com/shop/customblissbygrace" target="_blank" rel="noopener noreferrer"><li>Etsy Shop</li></a>
-              <a href="contact"><li>Contact</li></a>
+  <section id="title">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" role="navigation">
+
+      <a class="navbar-brand" href="/">Custom Bliss by Grace</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#specialties">Specialties</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.etsy.com/shop/customblissbygrace" target="_blank" rel="noopener noreferrer">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
         </ul>
       </div>
     </nav>
 
-    <div class="hero-image">
-      <div class="hero-text">
-        <h1>Custom Bliss by Grace</h1>
-        <h2>Expert Tailoring & Custom Creations</h2>
-        <a href ="about" class="button">Learn More</a>
+    <div class="hero">
+      <img class="hero-image" src="images/home.jpg" alt="women's blouses">
+    </div>
+  </section>
+
+
+  <section id="about">
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-lg-7 col-md-6 about-text">
+          <h1 class="cursive-heading">About Grace</h1>
+          <p>Grace is a tailor who's had a long career doing what she loves: creating custom-fit styles at an expert level. The idea behind Custom Bliss comes from seeing her clients' joyful expressions after trying on their tailored clothes.
+          </p>
+        </div>
+
+        <div class="col-lg-5 col-md-6 section-image">
+          <img class="about-image" src="images/about.jpg" alt="wedding dresses">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="specialties">
+
+    <h1 class="serif-heading">SPECIALTIES</h1>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5 offset-md-1">
+          <h2 class="specialties-subheading">Expert Tailoring</h2>
+          <p>wedding dresses</p>
+          <p>work attire & suits</p>
+          <p>equestrian apparel</p>
+          <p>household items</p>
+        </div>
+
+        <div class="col-md-5">
+          <h2 class="specialties-subheading">Custom Creations</h2>
+          <p>cushion & duvet covers</p>
+          <p>curtains & drapery</p>
+          <p>dance costumes</p>
+          <p>riding stock ties</p>
+        </div>
       </div>
     </div>
 
+  </section>
 
-    <div id = "footer"> Marshall Cleaners © 2022 </div>
+
+  <section id="contact">
+
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-md-7">
+
+          <div class="row contact-text">
+            <div class="col-sm-7 contact-box">
+              <i class="far fa-clock"></i>
+              <li><b>Mon-Fri</b> 8:30am - 6pm</li>
+              <li><b>Saturday</b> 9am - 4pm</li>
+              <li><b>Sunday</b> Closed</li>
+            </div>
+
+            <div class="col-sm-5 contact-box">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>8459 W Main St<br> Marshall, VA 20115</p>
+            </div>
+
+            <div class="col-sm-7 contact-box">
+              <i class="far fa-envelope"></i>
+              <p>CustomBlissByGrace @gmail.com</p>
+            </div>
+
+            <div class="col-sm-5 contact-box">
+              <i class="fas fa-phone"></i>
+              <p>(540) 364 – 4977</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-5 section-image">
+          <img class="contact-image" src="images/contact.jpg" alt="beach">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div id="footer"> Marshall Cleaners © 2022 </div>
 
 </body>
+
 </html>

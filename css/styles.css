@@ -1,0 +1,148 @@
+/* Licorice - Cursive
+Lora - Serif
+Poppins - Sans Serif */
+/* ROOT FONT ****************************************** */
+:root {
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+@media (min-width: 900px) {
+  :root {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1300px) {
+  :root {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1500px) {
+  :root {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1700px) {
+  :root {
+    font-size: 24px;
+  }
+}
+
+/* HERO HEADER ****************************************** */
+.hero-image {
+  width: 100%;
+}
+
+.navbar {
+  padding: 0 3rem;
+}
+
+/* ABOUT SECTION ****************************************** */
+#about {
+  background-color: #272727;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.about-image {
+  margin: 0;
+  width: 100%;
+}
+
+.cursive-heading {
+  font-family: "Licorice", cursive;
+  font-size: 3.5rem;
+  padding-bottom: 1rem;
+}
+
+.about-text {
+  padding: 3.5rem 4rem 2rem 5rem;
+}
+
+/* SPECIALTIES SECTION ****************************************** */
+#specialties {
+  padding: 4rem 0;
+  background-color: #7BCBDF;
+  text-align: center;
+}
+
+.serif-heading {
+  font-family: "Lora", serif;
+  color: white;
+  font-size: 3.5rem;
+}
+
+.specialties-subheading {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 2rem 0 1rem;
+}
+
+/* CONTACT SECTION ****************************************** */
+.contact-image {
+  width: 100%;
+}
+
+b {
+  display: table-cell;
+  padding-right: 1em;
+}
+
+li {
+  display: table-row;
+  padding: 0;
+}
+
+.contact-box {
+  padding: 1rem;
+}
+
+.contact-text {
+  padding: 3rem 0 0 3rem;
+}
+
+.section-image {
+  padding-right: 0;
+}
+
+/* FOOTER SECTION ****************************************** */
+#footer {
+  font-size: 12px;
+  text-align: center;
+}
+
+/* 404 IMAGE */
+.error-image {
+  width: 100%;
+  opacity: 0.2;
+}
+
+.error-text {
+	margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* Testimonials */
+
+.carousel-item {
+  padding: 7% 0;
+	text-align: center;
+}
+
+.portfolio-img {
+  max-height: 60vh;
+  max-width: 80%;
+}
