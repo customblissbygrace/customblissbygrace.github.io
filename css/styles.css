@@ -9,7 +9,8 @@ Poppins - Sans Serif */
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
 }
 
 @media (min-width: 900px) {
@@ -36,48 +37,75 @@ body {
   }
 }
 
-/* HERO HEADER ****************************************** */
-.hero-image {
-  width: 100%;
+/* NAVBAR ****************************************** */
+
+.logo {
+  width: 9rem;
+  padding: 1rem 0 0;
 }
 
 .navbar {
-  padding: 0 3rem;
+  padding: 0 3rem 1rem;
+  background-color: white;
+  font-size: 0.8rem;
 }
 
-/* ABOUT SECTION ****************************************** */
-#about {
-  background-color: #272727;
-  color: white;
-  position: relative;
-  z-index: 1;
-}
+/* HERO ****************************************** */
 
-.about-image {
+.container-fluid,
+.row {
   margin: 0;
+  padding: 0;
   width: 100%;
 }
 
-.cursive-heading {
-  font-family: "Licorice", cursive;
-  font-size: 3.5rem;
-  padding-bottom: 1rem;
+.col {
+  padding: 0;
+  margin: 0;
+  background-color: #f8f1e8;
 }
 
-.about-text {
-  padding: 3.5rem 4rem 2rem 5rem;
+.carousel-inner {
+  padding: 0;
+  float: right;
 }
+
+.hero-image {
+  padding: 0;
+  min-width: 250px;
+}
+
+.hero-text {
+  color: black;
+  padding: 0.5rem 2rem;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tagline {
+  font-size: 1.8rem;
+  padding-top: 1rem;
+}
+
+.about {
+  font-size: 1rem;
+  padding: 0;
+}
+
+
 
 /* SPECIALTIES SECTION ****************************************** */
 #specialties {
   padding: 4rem 0;
-  background-color: #7BCBDF;
+  background-color: white;
   text-align: center;
 }
 
 .serif-heading {
   font-family: "Lora", serif;
-  color: white;
+  color: #a18d73;
   font-size: 3.5rem;
 }
 
@@ -87,57 +115,14 @@ body {
   padding: 2rem 0 1rem;
 }
 
-/* CONTACT SECTION ****************************************** */
-.contact-image {
-  width: 100%;
+
+/* PORTFOLIO SECTION ****************************************** */
+
+#portfolio {
+  height: 50rem;
 }
 
-b {
-  display: table-cell;
-  padding-right: 1em;
-}
-
-li {
-  display: table-row;
-  padding: 0;
-}
-
-.contact-box {
-  padding: 1rem;
-}
-
-.contact-text {
-  padding: 3rem 0 0 3rem;
-}
-
-.section-image {
-  padding-right: 0;
-}
-
-/* FOOTER SECTION ****************************************** */
-#footer {
-  font-size: 12px;
-  text-align: center;
-}
-
-/* 404 IMAGE */
-.error-image {
-  width: 100%;
-  opacity: 0.2;
-}
-
-.error-text {
-	margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-
-/* Testimonials */
-
-.carousel-item {
+.portfolio-item {
   padding: 7% 0;
 	text-align: center;
 }
@@ -146,3 +131,59 @@ li {
   max-height: 60vh;
   max-width: 80%;
 }
+
+
+
+/* FOOTER SECTION ****************************************** */
+footer {
+  background-color: #151515;
+  color: white;
+  font-size: 13px;
+  font-weight: 100;
+  padding: 2rem 3rem 1rem;
+}
+
+.footer-heading {
+  font-weight: bold;
+  letter-spacing: 7px;
+  padding-bottom: 0.5rem;
+}
+
+li span {
+  display: table-cell;
+  padding-right: 2rem;
+}
+
+li {
+  display: table-row;
+  padding: 0;
+}
+
+.section-image {
+  padding: 0;
+}
+
+#copyright {
+  font-size: 12px;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+
+
+
+/* 404 IMAGE */
+.error-image {
+  width: 100%;
+  opacity: 0.2;
+}
+
+.error-text {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
