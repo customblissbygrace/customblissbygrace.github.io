@@ -10,6 +10,12 @@ body {
   font-weight: 300;
 }
 
+@media (max-width: 500px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
 
 @media (min-width: 1300px) {
   :root {
@@ -37,7 +43,7 @@ body {
 }
 
 .navbar {
-  padding: 0 3rem 1rem;
+  padding: 0 1rem 1rem 2rem;
   background-color: white;
   font-size: 0.8rem;
 }
@@ -91,7 +97,7 @@ body {
 
 /* SPECIALTIES SECTION ****************************************** */
 #specialties {
-  padding: 4rem 0;
+  padding: 4rem 2rem;
   background-color: white;
   text-align: center;
 }
@@ -99,12 +105,12 @@ body {
 .serif-heading {
   font-family: "Lora", serif;
   color: #a18d73;
-  font-size: 3.5rem;
+  font-size: 3.3rem;
 }
 
 .specialties-subheading {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding: 2rem 0 1rem;
 }
 
