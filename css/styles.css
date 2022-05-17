@@ -1,23 +1,15 @@
-/* Licorice - Cursive
-Lora - Serif
-Poppins - Sans Serif */
 /* ROOT FONT ****************************************** */
 :root {
-  font-size: 15px;
+  font-size: 18px;
   padding: 0;
   margin: 0;
 }
 
 body {
   font-family: "Raleway", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
 }
 
-@media (min-width: 900px) {
-  :root {
-    font-size: 18px;
-  }
-}
 
 @media (min-width: 1300px) {
   :root {
@@ -85,12 +77,13 @@ body {
 }
 
 .tagline {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   padding-top: 1rem;
 }
 
 .about {
   font-size: 1rem;
+  font-weight: 300;
   padding: 0;
 }
 
@@ -116,31 +109,15 @@ body {
 }
 
 
-/* PORTFOLIO SECTION ****************************************** */
-
-#portfolio {
-  height: 50rem;
-}
-
-.portfolio-item {
-  padding: 7% 0;
-	text-align: center;
-}
-
-.portfolio-img {
-  max-height: 60vh;
-  max-width: 80%;
-}
-
-
 
 /* FOOTER SECTION ****************************************** */
 footer {
   background-color: #151515;
   color: white;
-  font-size: 13px;
-  font-weight: 100;
+  font-size: 0.8rem;
+  font-weight: 300;
   padding: 2rem 3rem 1rem;
+  line-height: 1.7;
 }
 
 .footer-heading {
@@ -159,31 +136,23 @@ li {
   padding: 0;
 }
 
-.section-image {
-  padding: 0;
-}
-
 #copyright {
   font-size: 12px;
   text-align: center;
   padding-top: 2rem;
 }
 
-
-
-
-/* 404 IMAGE */
-.error-image {
-  width: 100%;
-  opacity: 0.2;
+.footer-divider {
+  padding: 0 1rem;
 }
 
-.error-text {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+.footer-link {
+  color: white;
+  text-decoration:none;
 }
 
+.media-link {
+  padding-right: 1rem;
+}
 
